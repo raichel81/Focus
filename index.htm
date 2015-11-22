@@ -3,14 +3,19 @@
 <head>
     <title>Pay Attention</title>
 
-    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(initializeGame);
+	</script>
 </head>
 <body>
-	<div class="home">
+	<div class="home gameScreen">
 		<h1>Pay Attention Dammit!</h1>
 		<div class="intro">
 			This is a 2 player reading comprehension game to help prepare for exams or just hone your reading prowess. 
@@ -23,17 +28,17 @@
 				<br>
 				Player 2:<br>
 				<input type="text" name="Player2">
+				<input type="submit" class="start">Start</input>
 			</form>
-			<button class="start">Start</button>
 		</div>
 	</div>
-	<div class="howTo">
+	<div class="howTo gameScreen">
 		<p>You'll be given a shore essay to read together, followed by 5 or 7 multiple choice questions. <span id="player1"></span> your buzzer is the A (for Awesome) key, <span id="player2"></span> your buzzer is the P (for Perfect) key. Whoever buzzes first will have 3 seconds to answer the question. If the answer is correct that player gets 1 point BUT if it is wrong you lose 1 point. If the player doesn't answer within 3 seconds the other player gets 3 seconds to answer. If both players fail to answer the question YOU BOTH LOSE 1 POINT!
 		</p>
 		<p>Turn on your big brains and get your trigger fingers ready!</p>
 		<button class="letsGo">Let's go already!</button>
 	</div>
-	<div class="reading">
+	<div class="reading gameScreen">
 		<div class="essay"> 
 				The pioneers of the teaching of science imagined that its
 			    introduction into education would remove the conventionality,
@@ -81,6 +86,8 @@
 		<div class="timer"></div>
 		<button class="done">DONE</button>
 	</div>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>	
+
 </body>
 </html>
