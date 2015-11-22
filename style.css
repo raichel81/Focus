@@ -9,3 +9,34 @@
 .names {
 	display: none;
 }
+
+.player1Name {
+	font-weight: bold;
+	color: blue;
+	text-decoration: underline;
+}
+
+.player2Name {
+	font-weight: bold;
+	color: green;
+	text-decoration: underline;
+}
+
+.player1Info {
+	float: left;
+}
+
+.player2Info {
+	float: right;
+}
+
+.questions {
+	position: relative;
+	margin: 
+}
+.questionBox {
+	margin-bottom: 20%;
+}
+.answer {
+	display: block;
+}

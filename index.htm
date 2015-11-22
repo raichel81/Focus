@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   	<script type="text/javascript" src="jquery-countdown/jquery.plugin.js"></script>
+ 	<script type="text/javascript" src="jquery-countdown/jquery.countdown.js"></script>
+
 	<script type="text/javascript" src="script.js"></script>
 
 	<script type="text/javascript">
@@ -22,18 +25,17 @@
 			<button class="play">Play</button>
 		</div>
 		<div class="names">
-			<form>
-				Player 1:<br>
-				<input type="text" name="Player1">
-				<br>
-				Player 2:<br>
-				<input type="text" name="Player2">
-				<input type="submit" class="start">Start</input>
+			<form class="enterNames">
+				
+				<input class="player1" type="text" name="Player1" value="Player 1">
+				
+				<input class="player2" type="text" name="Player2" value="Player 2">
+				<input class="start" type="submit" class="start" value="Start!"/>
 			</form>
 		</div>
 	</div>
 	<div class="howTo gameScreen">
-		<p>You'll be given a shore essay to read together, followed by 5 or 7 multiple choice questions. <span id="player1"></span> your buzzer is the A (for Awesome) key, <span id="player2"></span> your buzzer is the P (for Perfect) key. Whoever buzzes first will have 3 seconds to answer the question. If the answer is correct that player gets 1 point BUT if it is wrong you lose 1 point. If the player doesn't answer within 3 seconds the other player gets 3 seconds to answer. If both players fail to answer the question YOU BOTH LOSE 1 POINT!
+		<p>You'll be given a shore essay to read together, followed by 5 or 7 multiple choice questions. <span class="player1Name"></span> your buzzer is the A (for Awesome) key, <span class="player2Name"></span> your buzzer is the P (for Perfect) key. Whoever buzzes first will have 3 seconds to answer the question. If the answer is correct that player gets 1 point BUT if it is wrong you lose 1 point. If the player doesn't answer within 3 seconds the other player gets 3 seconds to answer. If both players fail to answer the question YOU BOTH LOSE 1 POINT!
 		</p>
 		<p>Turn on your big brains and get your trigger fingers ready!</p>
 		<button class="letsGo">Let's go already!</button>
@@ -51,42 +53,42 @@
 			    managed to make the understanding of chemical reactions as dull
 			10  and as dogmatic an affair as the reading of Virgil's Aeneid.
 
-			    The chief claim for the use of science in education is that it
-			    teaches a child something about the actual universe in which he is
-			    living, in making him acquainted with the results of scientific
-			15  discovery, and at the same time teaches him how to think logically
-			    and inductively by studying scientific method. A certain limited
-			    success has been reached in the first of these aims, but practically
-			    none at all in the second. Those privileged members of the
-			    community who have been through a secondary or public school
-			20  education may be expected to know something about the
-			    elementary physics and chemistry of a hundred years ago, but they
-			    probably know hardly more than any bright boy can pick up from
-			    an interest in wireless or scientific hobbies out of school hours.
-			    As to the learning of scientific method, the whole thing is palpably
-			25  a farce. Actually, for the convenience of teachers and the
-			    requirements of the examination system, it is necessary that the
-			    pupils not only do not learn scientific method but learn precisely
-			    the reverse, that is, to believe exactly what they are told and to
-			    reproduce it when asked, whether it seems nonsense to them or
-			30  not. The way in which educated people respond to such quackeries
-			    as spiritualism or astrology, not to say more dangerous ones such
-			    as racial theories or currency myths, shows that fifty years of
-			    education in the method of science in Britain or Germany has
-			    produced no visible effect whatever. The only way of learning the
-			35  method of science is the long and bitter way of personal
-			    experience, and, until the educational or social systems are altered
-			    to make this possible, the best we can expect is the production of a
-			    minority of people who are able to acquire some of the techniques
-			    of science and a still smaller minority who are able to use and
-			40  develop them.
+		
 
 			Adapted from: The Social Function of Science, John D Bernal (1939)
 		</div>
-		<div class="timer"></div>
+		<div class="timer"> 
+			
+		</div>
 		<button class="done">DONE</button>
 	</div>
-
+	<div class="questions gameScreen">
+		<div class="player1Info">
+			<div class="player1Name"></div>
+			<div class="player1Score"></div>
+		</div>
+		<div class="player2Info">
+			<div class="player2Name"></div>
+			<div class="player2Score"></div>
+		</div>
+		<div class="questionBox">fagrjare;hb ra;gjrg logjrao;sehjb  erlgjs;ehjs'eog fgjksreh;ogjs
+		<button class="answer A">arghraegserhshg srhshsghs </button>
+		<button class="answer B">farega a gartga garegahas garehgaz</button>
+		<button class="answer C">agrag ahrhaz dtje6j jnydjys</button>
+		<button class="answer D">a rga shrsthjs htdyjdjd njydtjdsrjm ydjyfj</button>
+		</div>
+		<div class="nextBox">
+			Next Question
+			<button class="next">Ready?</button>
+		</div>
+	</div>
+	<div class="finalScreen gameScreen">
+		<div class="winner"></div>
+		<div class="continueOrFinish">
+			<button class="continue">Another Round</button>
+			<button class="finish">Finish</button>
+		</div>
+	</div>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>	
 
 </body>
