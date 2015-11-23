@@ -1,9 +1,39 @@
 body {
-	font-family: 'Vast Shadow', cursive;
+		background-image: url("background.jpg");
+		background-size: 130%;
+    	background-repeat: no-repeat;
+
+}
+.text {
+	opacity: 1;
+}
+
+p {
+	opacity: 1;
+	margin: 10%
+}
+
+input {
+	margin: 10%;
+}
+h1 {
+	opacity: 0.4;
+	font-size: 107px;
+}
+
+.essay {
+	font-family: 'Playfair Display', serif;
 }
 
 .container {
 	display: none;
+	font-family: 'Playfair Display', serif;
+	background-color: white 50%;
+	text-align: center;
+	height: 100%
+}
+.intro {
+	height: 100%;
 }
 
 .home {
@@ -15,17 +45,16 @@ body {
 }
 
 .jumbotron {
+	    font-family: 'Vast Shadow', cursive;
 	    background-color: #32946E;
 	    color: #7D2A21;
+	    text-align: center;
 }
 
-h1 {
-	font-family: 'Vast Shadow', cursive;
-	text-align: center;
-}
 .blink-me {
 	font-weight: bold;
 	text-decoration: underline;
+	font-family: 'Vast Shadow', cursive;
 	animation: blinker 1s linear infinite;
 }
 

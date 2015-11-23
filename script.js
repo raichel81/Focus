@@ -86,7 +86,7 @@ var showQuestion = function() {
 		});
 
 	// // TEMP
-	// buzzedInPlayer = 1;
+	buzzedInPlayer = 1;
 // 	$('.blink-me').on('input', function() { 
 //     $(this).val() // get the current value of the input field.
 // });
