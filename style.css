@@ -1,4 +1,8 @@
-.gameScreen {
+body {
+	font-family: 'Vast Shadow', cursive;
+}
+
+.container {
 	display: none;
 }
 
@@ -10,16 +14,31 @@
 	display: none;
 }
 
-.player1Name {
+.jumbotron {
+	    background-color: #32946E;
+	    color: #7D2A21;
+}
+
+h1 {
+	font-family: 'Vast Shadow', cursive;
+	text-align: center;
+}
+.blink-me {
 	font-weight: bold;
-	color: blue;
 	text-decoration: underline;
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+.player1Name {
+	color: blue;
 }
 
 .player2Name {
-	font-weight: bold;
 	color: green;
-	text-decoration: underline;
 }
 
 .player1Info {

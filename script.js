@@ -1,5 +1,10 @@
 var player1Name;
 var player2Name;
+// var questionData;
+var currentEssay = 0;
+var currentQuestion = 0;
+var currentQuestionCorrect = 0;
+var buzzedInPlayer;
 
 var initializeGame = function() {
 	var playButton = $('.play');
@@ -7,22 +12,23 @@ var initializeGame = function() {
 	playButton.click(showNamesForm);
 	playButton.focus();
 
-	var enterNamesForm = $('.enterNames');
-	enterNamesForm.submit(showHowTo);
+	$('.enterNames').submit(showHowTo);
 
-	var goButton = $('.letsGo');
-	goButton.click(showEssay);
+	$('.letsGo').click(showEssay);
 
-	var doneButton = $('.done');
-	doneButton.click(showQuestion);
-
+	$('.done').click(showQuestion);
 
 	// var buzzer1 = 
 
 	// var buzzer2 = 
 
-	var answerButton = $('.questionBox button');
-	answerButton.click(showNextBox);
+	$('.questionBox button').each(function(i, answerButtonElement) {
+	
+		$(answerButtonElement).click(function() {
+			playerAnswer(i);
+		});
+	
+	});
 
 	var readyButton = $('.next');
 	readyButton.click(showQuestionBox);
@@ -48,11 +54,12 @@ var showHowTo = function(e) {
 };
 
 var showEssay = function() {
+	$('.essay').text(questionData[currentEssay].essay);
 	$('.howTo').hide();
 	$('.reading').show();
 	$('.done').focus();
-	$('.timer').countdown({ 
-		until: "+5", 
+	$('.readingTimer').countdown({ 
+		until: "+300", 
 		layout: "{mn}:{snn}", 
 		onExpiry: showQuestion
 		});
@@ -60,16 +67,41 @@ var showEssay = function() {
 };
 
 var showQuestion = function() {
+	// navigate to question page
 	$('.reading').hide();
-	$('.nextBox').hide();
 	$('.questions').show();
-	
+
+	// load in the question data from the JSON
+	var currentQuestionData = questionData[currentEssay].questions[currentQuestion];
+	currentQuestionCorrect = currentQuestionData.correctAnswer; 
+	$('.question').text(currentQuestionData.text);
+	$('.answer').each(function(index, answerButton) {
+		$(answerButton).text(currentQuestionData.answers[index]);
+	});
+	$('.answer').css("background-color","");
+	$('.questionTimer').countdown({ 
+		until: "+10", 
+		layout: "{mn}:{snn}", 
+		onExpiry: correctAnswer
+		});
+
+	// // TEMP
+	// buzzedInPlayer = 1;
+// 	$('.blink-me').on('input', function() { 
+//     $(this).val() // get the current value of the input field.
+// });
+	// $('.questions').keypress(function(e) {
+ //   if(e.keyCode == 97){
+ //   	$('.blink-me').on(buzzedInPlayer)
+ //    alert('key a pressed');
+ //   }
+ // });
 };
 
 
-var playerBuzzed = function(e) {
+// var playerBuzzed = function(e) {
 
-};
+// };
 
 
 
@@ -83,15 +115,51 @@ var showQuestionBox = function() {
 	$('.questionBox').show();
 };
 
-// $('.timer').countdown('destroy')
+var playerAnswer = function(answerIndex) {
+	if(buzzedInPlayer) {
+		if(answerIndex == currentQuestionCorrect) {
+			correctAnswer();
+		} else {
+			incorrectAnswer(answerIndex);
+		}
+	}
+};
 
-// $('.timer').countdown({ 
-// 	until: "+3", 
-// 	layout: "{snn}", 
-// 	onExpiry: function(){ 
-// 		$(this).countdown('destroy'); 
-// 	} 
-// });
+var correctAnswer = function() {
+
+	$('.answer')[currentQuestionCorrect].style.background = "green";
+	loadNextQuestion();
+};
+
+var incorrectAnswer = function(answerIndex) {
+	// decrement player score
+	$('.answer')[answerIndex].style.background = "red";
+	$('.answer')[currentQuestionCorrect].style.background = "green";
+	loadNextQuestion();
+};
+
+var loadNextQuestion = function() {
+	currentQuestion++;
+	buzzedInPlayer = null;
+	setTimeout(showQuestion,3000);
+	$('.questionTimer').countdown('destroy'); 
+};
+
+var loadNextEssay = function() {
+	currentEssay++;
+	$('.readingTimer').countdown('destroy'); 
+};
+
+// var plusPoint = 
+
+
+// var minusPoint = 
+	// increment the "currentQuestion" counter
+	// if there's another question, show the question
+	// if not, go to finish page with final score
+
+
+
 
 
 
