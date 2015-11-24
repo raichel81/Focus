@@ -4,15 +4,27 @@ body {
     	background-repeat: no-repeat;
     	background-attachment: fixed;
     	overflow:scroll;
+    	font-size: 20px;
+    	text-shadow: 0px -1px 0px #003;
 }
 
 p {
 	margin: 5%;
 	font-size:25px;
+	font-family: 'Playfair Display', serif;
+	text-shadow: 0px -1px 0px #003;
 }
 
 input {
-	margin: 5%;
+	margin-bottom: 2%;
+	margin-left: 15%;
+	font-family: 'Playfair Display', serif;
+}
+button {
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	background-color: #FFDDA4;
 }
 
 .jumbotron h1 {
@@ -23,12 +35,26 @@ input {
 	font-family: 'Playfair Display', serif;
 	font-size: 22px;
 	font-weight: bold;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	text-shadow: 0px -1px 0px #003;
 }
 
 .thing {
 	text-align: center;
-	font-size: 20px;
-	margin: 0 auto;
+	font-size: 22px;
+	margin-bottom: 2%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid black;
+    margin-left: 43%;
+    font-family: 'Vast Shadow', cursive;
+}
+.letsGo {
+	margin-left: 35%;
+}
+.done {
+	margin-left: 44%;
 }
 
 .container {
@@ -107,17 +133,43 @@ input {
 	margin-bottom: 2%;
 	font-size: 20px;
 }
+.question {
+	margin-bottom: 4%;
+}
 .answer {
 	display: block;
+	width: 90%;
+	text-align: left;
+	margin: 1.5%;
+	font-size: 20px;
 }
 .timer {
-	margin: 15%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Vast Shadow', cursive;
+	height: 42px;
 }
 .winner {
-	font-size: 50px;
-	position: center;
-	margin-top: 30%;
+	font-size: 55px;
+	color: #FFA82B;
+	font-family: 'Vast Shadow', cursive;
+	text-shadow: 0px -1px 0px #003;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.questions {
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+}
+
+.continue {
+	margin-right: 10%;
+	margin-left: 20%;
 }

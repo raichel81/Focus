@@ -1,15 +1,23 @@
 var player1Name;
 var player2Name;
+// Defined in questionData.json
 // var questionData;
-var currentEssay = 0;
+var currentEssay;
 var currentQuestion = 0;
 var currentQuestionCorrect = 0;
 var buzzedInPlayer;
+var alreadyBuzzed = false;
 var player1Score = 0;
 var player2Score = 0;
 var timedOut;
 
+document.querySelector('.finish').addEventListener('click', function(event){
+	window.location.reload(false);
+})
+
 var initializeGame = function() {
+	currentEssay = Math.floor(Math.random() * questionData.length);
+
 	var playButton = $('.play');
 
 	playButton.click(showNamesForm);
@@ -20,10 +28,6 @@ var initializeGame = function() {
 	$('.letsGo').click(showEssay);
 
 	$('.done').click(showQuestion);
-
-	// var buzzer1 = 
-
-	// var buzzer2 = 
 
 	$('.questionBox button').each(function(i, answerButtonElement) {
 		$(answerButtonElement).click(function() {
@@ -47,14 +51,19 @@ var initializeGame = function() {
 
 
 var playerBuzzed = function(whichPlayer) {
-	$( '.player'+ whichPlayer + 'Name' ).addClass( "blink-me");
+	if(alreadyBuzzed) {
+		return;
+	}
+	$('.player'+ whichPlayer + 'Name').addClass( "blink-me");
 	buzzedInPlayer = whichPlayer;
+	alreadyBuzzed = true;
 };
 
 var showNamesForm = function() {
 	$('.intro').hide();
 	$('.names').show();
 	$('.player1').focus().select();
+	alreadyBuzzed = true;
 };
 
 var showHowTo = function(e) {
@@ -81,10 +90,12 @@ var showEssay = function() {
 		layout: "{mn}:{snn}", 
 		onExpiry: showQuestion
 	});
+	window.scrollTo(0,0);
 };
 
 var showQuestion = function() {
 	// navigate to question page
+	alreadyBuzzed = false;
 	$('.reading').hide();
 	$('.questions').show();
 
@@ -99,24 +110,17 @@ var showQuestion = function() {
 	$('.answer').each(function(index, answerButton) {
 		$(answerButton).text(currentQuestionData.answers[index]);
 	});
+
+
+
 	$('.answer').css("background-color","");
 	$('.questionTimer').countdown({ 
-		until: "+10", 
+		until: "+2", 
 		layout: "{snn}", 
 		onExpiry: timedOut
 		});
 	$('.blink-me').removeClass("blink-me");
 };
-
-// var showNextBox = function() {
-// 	$('.questionBox').hide();
-// 	$('.nextBox').show();
-// };
-
-// var showQuestionBox = function() {
-// 	$('.nextBox').hide();
-// 	$('.questionBox').show();
-// };
 
 var playerAnswer = function(answerIndex) {
 	if(buzzedInPlayer) {
@@ -169,20 +173,34 @@ var loadNextEssay = function() {
 	$('.readingTimer').countdown('destroy'); 
 };
 
+var highestScore = function() {
+	if(player1Score > player2Score) {
+		return player1Name + " is sooo awesome!";
+	}
+	else if(player2Score > player1Score) {
+		return player2Name + " is like sooo perfect!";
+	}
+	else {
+		return "I love you both the same =/"
+	}
+};
+
+
 var goToFinish = function() {
-	currentEssay++;
+	currentEssay = (currentEssay + 1) % (questionData.length);
 	currentQuestion = 0;
 	$('.questions').hide();
 	$('.final').show();
 	$('.continue').focus();
 	$('.continue').click(showEssay);
 	$('.readingTimer').countdown('destroy'); 
+	$('.winner').text(highestScore);
 };
 
+// extra break between paragraphs. take out numbers, 
+// set lengths of timers as appropriate
+// read through essays and Qs, change colors of answer buttons
 
-
-
-// if (questionData[currentEssay].questions[currentQuestion];
 
 
 
