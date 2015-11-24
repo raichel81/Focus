@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,400' rel='stylesheet' type='text/css'>
 
    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
    	<script type="text/javascript" src="jquery-countdown/jquery.plugin.js"></script>
@@ -25,12 +25,12 @@
 		<h1 class="text">Focus!</h1>
 	</div>
 
-	<div class="home container col-md-2 ">
+	<div class="home container">
 		<div class="intro">
 			<p>
 			This is a 2 player reading comprehension game to help prepare for exams or just hone your reading prowess. 
 			</p>
-			<button class="play">Play</button>
+			<button class="play thing">Play</button>
 		</div>
 		<div class="names">
 			<form class="enterNames" role="form">
@@ -42,41 +42,39 @@
 			</form>
 		</div>
 	</div>
-	<div class="howTo container col-md-2 ">
+	<div class="howTo container">
 		<p>You'll be given a short essay to read together, followed by 5 or 7 multiple choice questions. <span class="player1Name"></span> your buzzer is the A (for Awesome) key, <span class="player2Name"></span> your buzzer is the P (for Perfect) key. Whoever buzzes first will have 3 seconds to answer the question. If the answer is correct that player gets 1 point BUT if it is wrong you lose 1 point. If the player that buzzed first doesn't answer within 3 seconds they lose a point! If neither player buzzes the question will time out and neither player gets a point. 
 		</p>
 		<p>Turn on your big brains and get your trigger fingers ready!</p>
-		<button class="letsGo">Let's go already!</button>
+		<button class="letsGo thing">Let's go already!</button>
 	</div>
-	<div class="reading container col-md-2 ">
-		<div class="essay"> 
-				
-		</div>
-		<div class="readingTimer"></div>
-		<button class="done">DONE</button>
+	<div class="reading container centered">
+		<div class="essay"> </div>
+		<div class="timer readingTimer"></div>
+		<button class="done thing">DONE</button>
 	</div>
-	<div class="questions container col-md-2 ">
-		<div class="player1Info">
-			<div class="player1Name blink-me"></div>
+	<div class="questions container">
+		<div class="player1Info col-md-3">
+			<div class="player1Name"></div>
 			<div class="player1Score">0</div>
 		</div>
-		<div class="player2Info">
-			<div class="player2Name blink-me"></div>
+		<div class="player2Info col-md-3">
+			<div class="player2Name"></div>
 			<div class="player2Score">0</div>
 		</div>
-		<div class="questionBox">
+		<div class="questionBox col-md-6">
+			<div class="timer questionTimer"></div>
 			<div class="question"></div>
 			<button class="answer A"></button>
 			<button class="answer B"></button>
 			<button class="answer C"></button>
 			<button class="answer D"></button>
 			<button class="answer E"></button>
-			<div class="questionTimer"></div>
 		</div>
 	</div>
-	<div class="finalScreen container col-md-2 ">
-		<div class="winner blink-me"></div>
+	<div class="final container">
 		<div class="continueOrFinish">
+		<h2 class=" winner blink-me"></h2>
 			<button class="continue">Another Round</button>
 			<button class="finish">Finish</button>
 		</div>

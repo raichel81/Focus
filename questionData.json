@@ -1,286 +1,277 @@
-var questionData = [
-	{
-		"essay":"The pioneers of the teaching of science imagined that its<br>    introduction into education would remove the conventionality,<br>    artificiality, and backward-lookingness which were characteristic;<br>    of classical studies, but they were gravely disappointed. So, too, in<br>5   their time had the humanists thought that the study of the classical<br>    authors in the original would banish at once the dull pedantry and<br>    superstition of mediaeval scholasticism. The professional<br>    schoolmaster was a match for both of them, and has almost<br>    managed to make the understanding of chemical reactions as dull<br>10  and as dogmatic an affair as the reading of Virgil's Aeneid.<br><br>    The chief claim for the use of science in education is that it<br>    teaches a child something about the actual universe in which he is<br>    living, in making him acquainted with the results of scientific<br>15  discovery, and at the same time teaches him how to think logically<br>    and inductively by studying scientific method. A certain limited<br>    success has been reached in the first of these aims, but practically<br>    none at all in the second. Those privileged members of the<br>    community who have been through a secondary or public school<br>20  education may be expected to know something about the<br>    elementary physics and chemistry of a hundred years ago, but they<br>    probably know hardly more than any bright boy can pick up from<br>    an interest in wireless or scientific hobbies out of school hours.<br>    As to the learning of scientific method, the whole thing is palpably<br>25  a farce. Actually, for the convenience of teachers and the<br>    requirements of the examination system, it is necessary that the<br>    pupils not only do not learn scientific method but learn precisely<br>    the reverse, that is, to believe exactly what they are told and to<br>    reproduce it when asked, whether it seems nonsense to them or<br>30  not. The way in which educated people respond to such quackeries<br>    as spiritualism or astrology, not to say more dangerous ones such<br>    as racial theories or currency myths, shows that fifty years of<br>    education in the method of science in Britain or Germany has<br>    produced no visible effect whatever. The only way of learning the<br>35  method of science is the long and bitter way of personal<br>    experience, and, until the educational or social systems are altered<br>    to make this possible, the best we can expect is the production of a<br>    minority of people who are able to acquire some of the techniques<br>    of science and a still smaller minority who are able to use and<br>40  develop them.<br><br>Adapted from: The Social Function of Science, John D Bernal (1939)",
-		"questions": [
-			{ 
-				"text": "1. The author implies that the 'professional schoolmaster' has",
-				"correctAnswer": 1,
-				"answers": [
-					"A. no interest in teaching science ",
-					"B. thwarted attempts to enliven education ",
-					"C. aided true learning ",
-					"D. supported the humanists",
-					"E. been a pioneer in both science and humanities"
-				]
-			},
-			{ 
-				"text": "2. The author's attitude to secondary and public school education in the sciences is",
-				"correctAnswer": 4,
-				"answers": [
-					"A. ambivalent",
-					"B. neutral",
-					"C. supportive",
-					"D. satirical",
-					"E. contemptuous"
-				]
-			},
-			{ 
-				"text": "3. The word 'palpably' most nearly means",
-				"correctAnswer": 1,
-				"answers": [
-					"A. empirically",
-					"B. obviously",
-					"C. tentatively",
-					"D. markedly",
-					"E. ridiculously"
-				]
-			},
-			{ 
-				"text": "4. The author blames all of the following for the failure to impart scientific method through the education system except",
-				"correctAnswer": 4,
-				"answers": [
-					"A. poor teaching",
-					"B. examination methods",
-					"C. lack of direct experience",
-					"D. the social and education systems",
-					"E. lack of interest on the part of students"
-				]
-			},
-			{ 
-				"text": "5. If the author were to study current education in science to see how things have changed since he wrote the piece, he would probably be most interested in the answer to which of the following questions?",
-				"correctAnswer": 2,
-				"answers": [
-					"A. Do students know more about the world about them?",
-					"B. Do students spend more time in laboratories?",
-					"C. Can students apply their knowledge logically?",
-					"D. Have textbooks improved?",
-					"E. Do they respect their teachers?"
-				]
-			},
-			{ 
-				"text": "6. Astrology is mentioned as an example of",
-				"correctAnswer": 2,
-				"answers": [
-					"A. a science that needs to be better understood",
-					"B. a belief which no educated people hold",
-					"C. something unsupportable to those who have absorbed the methods of science",
-					"D. the gravest danger to society",
-					"E. an acknowledged failure of science"
-				]
-			},
-			{ 
-				"text": "7. All of the following can be inferred from the text except",
-				"correctAnswer": 4,
-				"answers": [
-					"A. at the time of writing, not all children received a secondary school education",
-					"B. the author finds chemical reactions interesting",
-					"C. science teaching has imparted some knowledge of facts to some children",
-					"D. the author believes that many teachers are authoritarian",
-					"E. it is relatively easy to learn scientific method"
-				]
-			}
-		]
-	},
-	{
-		"essay":"By the time a child is six or seven she has all the essential \n    avoidances well enough by heart to be trusted with the care of a \n    younger child. And she also develops a number of simple \n    techniques. She learns to weave firm square balls from palm \n5   leaves, to make pinwheels of palm leaves or frangipani blossoms, \n    to climb a coconut tree by walking up the trunk on flexible little \n    feet, to break open a coconut with one firm well-directed blow of \n    a knife as long as she is tall, to play a number of group games \n    and sing the songs which go with them, to tidy the house by \n10  picking up the litter on the stony floor, to bring water from the \n    sea, to spread out the copra to dry and to help gather it in when \n    rain threatens, to go to a neighboring house and bring back a \n    lighted faggot for the chief's pipe or the cook-house fire.\n\n      But in the case of the little girls all these tasks are merely \n15  supplementary to the main business of baby-tending. Very small \n    boys also have some care of the younger children, but at eight or \n    nine years of age they are usually relieved of it. Whatever rough \n    edges have not been smoothed off by this responsibility for \n    younger children are worn off by their contact with older boys. \n20  For little boys are admitted to interesting and important activities \n    only so long as their behavior is circumspect and helpful. Where \n    small girls are brusquely pushed aside, small boys will be \n    patiently tolerated and they become adept at making themselves \n    useful. The four or five little boys who all wish to assist at the \n25  important, business of helping a grown youth lasso reef eels, \n    organize themselves into a highly efficient working team; one boy \n    holds the bait, another holds an extra lasso, others poke \n    eagerly about in holes in the reef looking for prey, while still \n    another tucks the captured eels into his lavalava. The small girls, \n30  burdened with heavy babies or the care of little staggerers who are \n    too small to adventure on the reef, discouraged by the hostility \n    of the small boys and the scorn of the older ones, have \n    little opportunity for learning the more adventurous forms of work \n    and play. So while the little boys first undergo the \n35  chastening effects of baby-tending and then have many \n    opportunities to learn effective cooperation under the supervision \n    of older boys, the girls' education is less comprehensive. They \n    have a high standard of individual responsibility, but the \n    community provides them with no lessons in cooperation with one \n40  another. This is particularly apparent in the activities of young \n    people: the boys organize quickly; the girls waste hours in \n    bickering, innocent of any technique for quick and efficient \n    cooperation.\n\nAdapted from: Coming of Age in Samoa, Margaret Mead (1928)",
-		"questions": [
-			{ 
-				"text": "1. The primary purpose of the passage with reference to the society under discussion is to",
-				"correctAnswer": 0,
-				"answers": [
-					"A. explain some differences in the upbringing of girls and boys",
-					"B. criticize the deficiencies in the education of girls ",
-					"C. give a comprehensive account of a day in the life of an average young girl",
-					"D. delineate the role of young girls",
-					"E. show that young girls are trained to be useful to adults"
-				]
-			},
-			{ 
-				"text": "2. The list of techniques in paragraph one could best be described as",
-				"correctAnswer": 3,
-				"answers": [
-					"A. household duties",
-					"B. rudimentary physical skills",
-					"C. important responsibilities",
-					"D. useful social skills",
-					"E. monotonous tasks"
-				]
-			},
-			{ 
-				"text": "3. It can be inferred that the 'high standard of individual responsibility' is",
-				"correctAnswer": 0,
-				"answers": [
-					"A. developed mainly through child-care duties",
-					"B. only present in girls",
-					"C. taught to the girl before she is entrusted with babies",
-					"D. actually counterproductive",
-					"E. weakened as the girl grows older"
-				]
-			},
-			{ 
-				"text": "4. It can be inferred that in the community under discussion all of the following are important except",
-				"correctAnswer": 3,
-				"answers": [
-					"A. domestic handicrafts",
-					"B. well-defined social structure",
-					"C. fishing skills",
-					"D. formal education",
-					"E. division of labor"
-				]
-			},
-			{ 
-				"text": "5. Which of the following is the best description of the author's technique in handling her material?",
-				"correctAnswer": 0,
-				"answers": [
-					"A. Both description and interpretation of observations.",
-					"B. Presentation of facts without comment.",
-					"C. Description of evidence to support a theory. ",
-					"D. Generalization from a particular viewpoint.",
-					"E. Close examination of preconceptions."
-				]
-			},
-		]
-	},
-	{
-		"essay":"The name of Florence Nightingale lives in the memory of the \n    world by virtue of the heroic adventure of the Crimea. Had she \n    died - as she nearly did - upon her return to England, her \n    reputation would hardly have been different; her legend would \n5   have come down to us almost as we know it today - that gentle \n    vision of female virtue which first took shape before the adoring \n    eyes of the sick soldiers at Scutari. Yet, as a matter of fact, she \n    lived for more than half a century after the Crimean War; and \n    during the greater part of that long period all the energy and all the \n10  devotion of her extraordinary nature were working at their \n    highest pitch. What she accomplished in those years of unknown \n    labor could, indeed, hardly have been more glorious than her \n    Crimean triumphs; but it was certainly more important. The true \n    history was far stranger even than the myth. In Miss Nightingale's \n15  own eyes the adventure of the Crimea was a mere incident - \n    scarcely more than a useful stepping-stone in her career. It was the \n    fulcrum with which she hoped to move the world; but it was \n    only the fulcrum. For more than a generation she was to sit in \n    secret, working her lever: and her real life began at the very \n20  moment when, in popular imagination, it had ended.\n\n    She arrived in England in a shattered state of health. The \n    hardships and the ceaseless efforts of the last two years had \n    undermined her nervous system; her heart was affected; she \n    suffered constantly from fainting-fits and terrible attacks of utter \n25  physical prostration. The doctors declared that one thing alone \n    would save her - a complete and prolonged rest. But that was also \n    the one thing with which she would have nothing to do. She had \n    never been in the habit of resting; why should she begin now? \n    Now, when her opportunity had come at last; now, when the iron \n30  was hot, and it was time to strike? No; she had work to do; and, \n    come what might, she would do it. The doctors protested in vain; \n    in vain her family lamented and entreated, in vain her friends \n    pointed out to her the madness of such a course. Madness? Mad - \n    possessed - perhaps she was. A frenzy had seized upon her. As \n35  she lay upon her sofa, gasping, she devoured blue-books, dictated \n    letters, and, in the intervals of her palpitations, cracked jokes. For \n    months at a stretch she never left her bed. But she would not rest. \n    At this rate, the doctors assured her, even if she did not die, she \n    would become an invalid for life. She could not help that; there \n40  was work to be done; and, as for rest, very likely she might rest ... \n    when she had done it.\n\n    Wherever she went, to London or in the country, in the hills \n    of Derbyshire, or among the rhododendrons at Embley, she was \n    haunted by a ghost. It was the specter of Scutari - the hideous \n45  vision of the organization of a military hospital. She would lay that \n    phantom, or she would perish. The whole system of the \n    Army Medical Department, the education of the Medical Officer, \n    the regulations of hospital procedure ... rest? How could she rest \n    while these things were as they were, while, if the like necessity \n50  were to arise again, the like results would follow? And, even in \n    peace and at home, what was the sanitary condition of the Army? \n    The mortality in the barracks, was, she found, nearly double the \n    mortality in civil life. 'You might as well take 1, 100 men every \n    year out upon Salisbury Plain and shoot them,' she said. After \n55  inspecting the hospitals at Chatham, she smiled grimly. 'Yes, this \n    is one more symptom of the system which, in the Crimea, put to \n    death 16,000 men.' Scutari had given her knowledge; and it had \n    given her power too: her enormous reputation was at her back - \n    an incalculable force. Other work, other duties, might lie before \n60  her; but the most urgent, the most obvious, of all was to look to \n    the health of the Army.\n\nAdapted from: Eminent Victorians, Lytton Strachey (1918)\n",
-		"questions": [
-			{ 
-				"text": "1. According to the author, the work done during the last fifty years of Florence Nightingale's life was, when compared with her work in the Crimea, all of the following except",
-				"correctAnswer": 1,
-				"answers": [
-					"A. less dramatic",
-					"B. less demanding",
-					"C. less well-known to the public",
-					"D. more important",
-					"E. more rewarding to Miss Nightingale herself"
-				]
-			},
-			{ 
-				"text": "2. Paragraph two paints a picture of a woman who is",
-				"correctAnswer": 3,
-				"answers": [
-					"A. an incapacitated invalid",
-					"B. mentally shattered",
-					"C. stubborn and querulous",
-					"D. physically weak but mentally indomitable",
-					"E. purposeful yet tiresome"
-				]
-			},
-			{ 
-				"text": "3. The series of questions in paragraphs 2 and 3 are",
-				"correctAnswer": 0,
-				"answers": [
-					"A. the author's attempt to show the thoughts running through Miss Nightingale's mind ",
-					"B. Miss Nightingale questioning her own conscience",
-					"C. Miss Nightingale's response to an actual questioner",
-					"D. Responses to the doctors who advised rest",
-					"E. The author's device to highlight the reactions to Miss Nightingale's plans"
-				]
-			},
-			{ 
-				"text": "4. The author's attitude to his material is",
-				"correctAnswer": 4,
-				"answers": [
-					"A. disinterested reporting of biographical details",
-					"B. over-inflation of a reputation",
-					"C. debunking a myth",
-					"D. uncritical presentation of facts",
-					"E. interpretation as well as narration"
-				]
-			},
-			{ 
-				"text": "5. In her statement (lines 53-54) Miss Nightingale intended to",
-				"correctAnswer": 1,
-				"answers": [
-					"A. criticize the conditions in hospitals",
-					"B. highlight the unhealthy conditions under which ordinary soldiers were living",
-					"C. prove that conditions in the barracks were as bad as those in a military hospital",
-					"D. ridicule the dangers of army life ",
-					"E. quote important statistics"
-				]
-			},
-		]
-	},
-	{
-		"essay":"I have yet to meet a poetry-lover under thirty who was\n    not an introvert, or an introvert who was not unhappy in\n    adolescence. At school, particularly, maybe, if, as in my own\n    case, it is a boarding school, he sees the extrovert successful, \n5   happy, and good and himself unpopular or neglected; and what is\n    hardest to bear is not unpopularity, but the consciousness that it\n    is deserved, that he is grubby and inferior and frightened and\n    dull. Knowing no other kind of society than the contingent, he\n    imagines that this arrangement is part of the eternal scheme of \n10  things, that he is doomed to a life of failure and envy. It is not till\n    he grows up, till years later he runs across the heroes of his\n    school days and finds them grown commonplace and sterile, that\n    he realizes that the introvert is the lucky one, the best adapted to\n    an industrial civilization the collective values of which are so \n15  infantile that he alone can grow, who has educated his fantasies\n    and learned how to draw upon the resources of his inner life. At\n    the time, however, his adolescence is unpleasant enough. Unable\n    to imagine a society in which he would feel at home, he turns\n    away from the human to the nonhuman: homesick he will seek, \n20  not his mother, but mountains or autumn woods, and the\n    growing life within him will express itself in a devotion to music\n    and thoughts upon mutability and death. Art for him will be\n    something infinitely precious, pessimistic, and hostile to life. If it\n    speaks of love it must be love frustrated, for all success seems to \n25  him noisy and vulgar; if it moralizes, it must counsel a stoic\n    resignation, for the world he knows is well content with itself and\n    will not change.\n\nDeep as first love and wild with all regret,\nO death in life, the days that are no more.\n\nNow more than ever seems it sweet to die\nTo cease upon the midnight with no pain.\n35  That to the adolescent is the authentic poetic note and whoever is\n    the first in his life to strike it, whether Tennyson, Keats,\n    Swinburne, Housman or another, awakens a passion of imitation\n    and an affectation which no subsequent refinement or\n    sophistication of his taste can entirely destroy. In my own case it \n40  was Hardy in the summer of 1923; for more than a year I read no\n    one else and I do not think that I was ever without one volume or\n    another or the beautifully produced Wessex edition in my hands:\n    I smuggled them into class, carried them about on Sunday walks,\n    and took them up to the dormitory to read in the early morning, \n45  though they were far too unwieldy to be read in bed with\n    comfort. In the autumn of 1924 there was a palace revolution\n    after which he had to share his kingdom with Edward Thomas,\n    until finally they were both defeated by Elliot at the battle of\n    Oxford in 1926.\n50  Besides serving as the archetype of the Poetic, Hardy was\n    also an expression of the contemporary scene. He was both my\n    Keats and my Sandburg.\n    To begin with, he looked like my father: that broad\n    unpampered moustache, bald forehead, and deeply lined \n55  sympathetic face belonged to that other world of feeling and\n    sensation. Here was a writer whose emotions, if sometimes\n    monotonous and sentimental in expression, would be deeper and\n    more faithful than my own, and whose attachment to the earth\n    would be more secure and observant.\n\nAdapted from an article written by W H Auden",
-		"questions": [
-			{ 
-				"text": "1. According to the author, poetry lovers under thirty generally",
-				"correctAnswer": 0,
-				"answers": [
-					"A. have a strong sense of their own inferiority during school years",
-					"B. are always products of boarding schools",
-					"C. have an unhappy home life",
-					"D. are outgoing as adolescents",
-					"E. long to return to early childhood"
-				]
-			},
-			{ 
-				"text": "2. The author's main purpose is apparently to",
-				"correctAnswer": 1,
-				"answers": [
-					"A. describe what lead to his being an introvert ",
-					"B. explore the reasons for his early taste in poetr",
-					"C. explain what lead to his becoming a poet",
-					"D. account for the unhappy adolescent's aesthetic sense",
-					"E. criticize a system that makes young people feel unhappy and neglected"
-				]
-			},
-			{ 
-				"text": "3. The author regards the introverted adolescent as ultimately lucky because he has",
-				"correctAnswer": 2,
-				"answers": [
-					"A. become financially successful in an industrialized society",
-					"B. ceased to envy others",
-					"C. cultivated inner resources that he will need in modern society",
-					"D. a better general education than those who were envied in school",
-					"E. learned to appreciate nature"
-				]
-			},
-			{ 
-				"text": "4. It can be inferred that, for the author, the poetry of Hardy is",
-				"correctAnswer": 3,
-				"answers": [
-					"A. something with which he is not entirely comfortable",
-					"B. a temporary interest soon supplanted by other poetry",
-					"C. a secret obsession that he is reluctant to confess",
-					"D. his first poetic love that time has not entirely erased",
-					"E. a childlike passion"
-				]
-			},
-			{ 
-				"text": "5. It can be inferred that Edward Thomas",
-				"correctAnswer": 0,
-				"answers": [
-					"A. was once held in high esteem by the author ",
-					"B. was a better poet than Hardy",
-					"C. was writing in 1924",
-					"D. had views opposed to Eliot",
-					"E. wrote poetry similar to that of Hardy"
-				]
-			},
-			{ 
-				"text": "6. The author qualifies his appreciation of Hardy by pointing out that Hardy's poetic techniques were",
-				"correctAnswer": 2,
-				"answers": [
-					"A. sometimes unmoving",
-					"B. not always deeply felt ",
-					"C. occasionally lacking in variety",
-					"D. always emotional",
-					"E. irrelevant to certain readers"
-				]
-			},
-			{ 
-				"text": "7. The author feels that Hardy's physical appearance suggested",
-				"correctAnswer": 0,
-				"answers": [
-					"A. deep and lasting feelings",
-					"B. paternal values ",
-					"C. careworn old age",
-					"D. a contemporary writer ",
-					"E. fatherly concern"
-				]
-			}
-		]
-	}
+var questionData=[
+    {
+        "essay": "The pioneers of the teaching of science imagined that its<br>   introduction into education would remove the conventionality,<br>    artificiality, and backward-lookingness which were characteristic;<br>    of classical studies, but they were gravely disappointed. So, too, in<br>5   their time had the humanists thought that the study of the classical<br>    authors in the original would banish at once the dull pedantry and<br>    superstition of mediaeval scholasticism. The professional<br>    schoolmaster was a match for both of them, and has almost<br>    managed to make the understanding of chemical reactions as dull<br>10  and as dogmatic an affair as the reading of Virgil's Aeneid.<br><br>    The chief claim for the use of science in education is that it<br>    teaches a child something about the actual universe in which he is<br>    living, in making him acquainted with the results of scientific<br>15  discovery, and at the same time teaches him how to think logically<br>    and inductively by studying scientific method. A certain limited<br>    success has been reached in the first of these aims, but practically<br>    none at all in the second. Those privileged members of the<br>    community who have been through a secondary or public school<br>20  education may be expected to know something about the<br>    elementary physics and chemistry of a hundred years ago, but they<br>    probably know hardly more than any bright boy can pick up from<br>    an interest in wireless or scientific hobbies out of school hours.<br>    As to the learning of scientific method, the whole thing is palpably<br>25  a farce. Actually, for the convenience of teachers and the<br>    requirements of the examination system, it is necessary that the<br>    pupils not only do not learn scientific method but learn precisely<br>    the reverse, that is, to believe exactly what they are told and to<br>    reproduce it when asked, whether it seems nonsense to them or<br>30  not. The way in which educated people respond to such quackeries<br>    as spiritualism or astrology, not to say more dangerous ones such<br>    as racial theories or currency myths, shows that fifty years of<br>    education in the method of science in Britain or Germany has<br>    produced no visible effect whatever. The only way of learning the<br>35  method of science is the long and bitter way of personal<br>    experience, and, until the educational or social systems are altered<br>    to make this possible, the best we can expect is the production of a<br>    minority of people who are able to acquire some of the techniques<br>    of science and a still smaller minority who are able to use and<br>40  develop them.<br><br>Adapted from: The Social Function of Science, John D Bernal (1939)",
+        "questions": [
+            {
+                "text": "1. The author implies that the 'professional schoolmaster' has",
+                "correctAnswer": 1,
+                "answers": [
+                    "A. no interest in teaching science ",
+                    "B. thwarted attempts to enliven education ",
+                    "C. aided true learning ",
+                    "D. supported the humanists",
+                    "E. been a pioneer in both science and humanities"
+                ]
+            },
+            {
+                "text": "2. The author's attitude to secondary and public school education in the sciences is",
+                "correctAnswer": 4,
+                "answers": [
+                    "A. ambivalent",
+                    "B. neutral",
+                    "C. supportive",
+                    "D. satirical",
+                    "E. contemptuous"
+                ]
+            },
+            {
+                "text": "3. The author blames all of the following for the failure to impart scientific method through the education system except",
+                "correctAnswer": 4,
+                "answers": [
+                    "A. poor teaching",
+                    "B. examination methods",
+                    "C. lack of direct experience",
+                    "D. the social and education systems",
+                    "E. lack of interest on the part of students"
+                ]
+            },
+            {
+                "text": "4. If the author were to study current education in science to see how things have changed since he wrote the piece, he would probably be most interested in the answer to which of the following questions?",
+                "correctAnswer": 2,
+                "answers": [
+                    "A. Do students know more about the world about them?",
+                    "B. Do students spend more time in laboratories?",
+                    "C. Can students apply their knowledge logically?",
+                    "D. Have textbooks improved?",
+                    "E. Do they respect their teachers?"
+                ]
+            },
+            {
+                "text": "5. Astrology is mentioned as an example of",
+                "correctAnswer": 2,
+                "answers": [
+                    "A. a science that needs to be better understood",
+                    "B. a belief which no educated people hold",
+                    "C. something unsupportable to those who have absorbed the methods of science",
+                    "D. the gravest danger to society",
+                    "E. an acknowledged failure of science"
+                ]
+            },
+            {
+                "text": "6. All of the following can be inferred from the text except",
+                "correctAnswer": 4,
+                "answers": [
+                    "A. at the time of writing, not all children received a secondary school education",
+                    "B. the author finds chemical reactions interesting",
+                    "C. science teaching has imparted some knowledge of facts to some children",
+                    "D. the author believes that many teachers are authoritarian",
+                    "E. it is relatively easy to learn scientific method"
+                ]
+            }
+        ]
+    },
+    {
+        "essay": "By the time a child is six or seven she has all the essential <br>    avoidances well enough by heart to be trusted with the care of a <br>    younger child. And she also develops a number of simple <br>    techniques. She learns to weave firm square balls from palm <br>5   leaves, to make pinwheels of palm leaves or frangipani blossoms, <br>    to climb a coconut tree by walking up the trunk on flexible little <br>    feet, to break open a coconut with one firm well-directed blow of <br>    a knife as long as she is tall, to play a number of group games <br>    and sing the songs which go with them, to tidy the house by <br>10  picking up the litter on the stony floor, to bring water from the <br>    sea, to spread out the copra to dry and to help gather it in when <br>    rain threatens, to go to a neighboring house and bring back a <br>    lighted faggot for the chief's pipe or the cook-house fire.<br><br>      But in the case of the little girls all these tasks are merely <br>15  supplementary to the main business of baby-tending. Very small <br>    boys also have some care of the younger children, but at eight or <br>    nine years of age they are usually relieved of it. Whatever rough <br>    edges have not been smoothed off by this responsibility for <br>    younger children are worn off by their contact with older boys. <br>20  For little boys are admitted to interesting and important activities <br>    only so long as their behavior is circumspect and helpful. Where <br>    small girls are brusquely pushed aside, small boys will be <br>    patiently tolerated and they become adept at making themselves <br>    useful. The four or five little boys who all wish to assist at the <br>25  important, business of helping a grown youth lasso reef eels, <br>    organize themselves into a highly efficient working team; one boy <br>    holds the bait, another holds an extra lasso, others poke <br>    eagerly about in holes in the reef looking for prey, while still <br>    another tucks the captured eels into his lavalava. The small girls, <br>30  burdened with heavy babies or the care of little staggerers who are <br>    too small to adventure on the reef, discouraged by the hostility <br>    of the small boys and the scorn of the older ones, have <br>    little opportunity for learning the more adventurous forms of work <br>    and play. So while the little boys first undergo the <br>35  chastening effects of baby-tending and then have many <br>    opportunities to learn effective cooperation under the supervision <br>    of older boys, the girls' education is less comprehensive. They <br>    have a high standard of individual responsibility, but the <br>    community provides them with no lessons in cooperation with one <br>40  another. This is particularly apparent in the activities of young <br>    people: the boys organize quickly; the girls waste hours in <br>    bickering, innocent of any technique for quick and efficient <br>    cooperation.<br><br>Adapted from: Coming of Age in Samoa, Margaret Mead (1928)",
+        "questions": [
+            {
+                "text": "1. The primary purpose of the passage with reference to the society under discussion is to",
+                "correctAnswer": 0,
+                "answers": [
+                    "A. explain some differences in the upbringing of girls and boys",
+                    "B. criticize the deficiencies in the education of girls ",
+                    "C. give a comprehensive account of a day in the life of an average young girl",
+                    "D. delineate the role of young girls",
+                    "E. show that young girls are trained to be useful to adults"
+                ]
+            },
+            {
+                "text": "2. The list of techniques in paragraph one could best be described as",
+                "correctAnswer": 3,
+                "answers": [
+                    "A. household duties",
+                    "B. rudimentary physical skills",
+                    "C. important responsibilities",
+                    "D. useful social skills",
+                    "E. monotonous tasks"
+                ]
+            },
+            {
+                "text": "3. It can be inferred that the 'high standard of individual responsibility' is",
+                "correctAnswer": 0,
+                "answers": [
+                    "A. developed mainly through child-care duties",
+                    "B. only present in girls",
+                    "C. taught to the girl before she is entrusted with babies",
+                    "D. actually counterproductive",
+                    "E. weakened as the girl grows older"
+                ]
+            },
+            {
+                "text": "4. It can be inferred that in the community under discussion all of the following are important except",
+                "correctAnswer": 3,
+                "answers": [
+                    "A. domestic handicrafts",
+                    "B. well-defined social structure",
+                    "C. fishing skills",
+                    "D. formal education",
+                    "E. division of labor"
+                ]
+            },
+            {
+                "text": "5. Which of the following is the best description of the author's technique in handling her material?",
+                "correctAnswer": 0,
+                "answers": [
+                    "A. Both description and interpretation of observations.",
+                    "B. Presentation of facts without comment.",
+                    "C. Description of evidence to support a theory. ",
+                    "D. Generalization from a particular viewpoint.",
+                    "E. Close examination of preconceptions."
+                ]
+            },
+            
+        ]
+    },
+    {
+        "essay": "The name of Florence Nightingale lives in the memory of the <br>    world by virtue of the heroic adventure of the Crimea. Had she <br>    died - as she nearly did - upon her return to England, her <br>    reputation would hardly have been different; her legend would <br>5   have come down to us almost as we know it today - that gentle <br>    vision of female virtue which first took shape before the adoring <br>    eyes of the sick soldiers at Scutari. Yet, as a matter of fact, she <br>    lived for more than half a century after the Crimean War; and <br>    during the greater part of that long period all the energy and all the <br>10  devotion of her extraordinary nature were working at their <br>    highest pitch. What she accomplished in those years of unknown <br>    labor could, indeed, hardly have been more glorious than her <br>    Crimean triumphs; but it was certainly more important. The true <br>    history was far stranger even than the myth. In Miss Nightingale's <br>15  own eyes the adventure of the Crimea was a mere incident - <br>    scarcely more than a useful stepping-stone in her career. It was the <br>    fulcrum with which she hoped to move the world; but it was <br>    only the fulcrum. For more than a generation she was to sit in <br>    secret, working her lever: and her real life began at the very <br>20  moment when, in popular imagination, it had ended.<br><br>    She arrived in England in a shattered state of health. The <br>    hardships and the ceaseless efforts of the last two years had <br>    undermined her nervous system; her heart was affected; she <br>    suffered constantly from fainting-fits and terrible attacks of utter <br>25  physical prostration. The doctors declared that one thing alone <br>    would save her - a complete and prolonged rest. But that was also <br>    the one thing with which she would have nothing to do. She had <br>    never been in the habit of resting; why should she begin now? <br>    Now, when her opportunity had come at last; now, when the iron <br>30  was hot, and it was time to strike? No; she had work to do; and, <br>    come what might, she would do it. The doctors protested in vain; <br>    in vain her family lamented and entreated, in vain her friends <br>    pointed out to her the madness of such a course. Madness? Mad - <br>    possessed - perhaps she was. A frenzy had seized upon her. As <br>35  she lay upon her sofa, gasping, she devoured blue-books, dictated <br>    letters, and, in the intervals of her palpitations, cracked jokes. For <br>    months at a stretch she never left her bed. But she would not rest. <br>    At this rate, the doctors assured her, even if she did not die, she <br>    would become an invalid for life. She could not help that; there <br>40  was work to be done; and, as for rest, very likely she might rest ... <br>    when she had done it.<br><br>    Wherever she went, to London or in the country, in the hills <br>    of Derbyshire, or among the rhododendrons at Embley, she was <br>    haunted by a ghost. It was the specter of Scutari - the hideous <br>45  vision of the organization of a military hospital. She would lay that <br>    phantom, or she would perish. The whole system of the <br>    Army Medical Department, the education of the Medical Officer, <br>    the regulations of hospital procedure ... rest? How could she rest <br>    while these things were as they were, while, if the like necessity <br>50  were to arise again, the like results would follow? And, even in <br>    peace and at home, what was the sanitary condition of the Army? <br>    The mortality in the barracks, was, she found, nearly double the <br>    mortality in civil life. 'You might as well take 1, 100 men every <br>    year out upon Salisbury Plain and shoot them,' she said. After <br>55  inspecting the hospitals at Chatham, she smiled grimly. 'Yes, this <br>    is one more symptom of the system which, in the Crimea, put to <br>    death 16,000 men.' Scutari had given her knowledge; and it had <br>    given her power too: her enormous reputation was at her back - <br>    an incalculable force. Other work, other duties, might lie before <br>60  her; but the most urgent, the most obvious, of all was to look to <br>    the health of the Army.<br><br>Adapted from: Eminent Victorians, Lytton Strachey (1918)<br>",
+        "questions": [
+            {
+                "text": "1. According to the author, the work done during the last fifty years of Florence Nightingale's life was, when compared with her work in the Crimea, all of the following except",
+                "correctAnswer": 1,
+                "answers": [
+                    "A. less dramatic",
+                    "B. less demanding",
+                    "C. less well-known to the public",
+                    "D. more important",
+                    "E. more rewarding to Miss Nightingale herself"
+                ]
+            },
+            {
+                "text": "2. Paragraph two paints a picture of a woman who is",
+                "correctAnswer": 3,
+                "answers": [
+                    "A. an incapacitated invalid",
+                    "B. mentally shattered",
+                    "C. stubborn and querulous",
+                    "D. physically weak but mentally indomitable",
+                    "E. purposeful yet tiresome"
+                ]
+            },
+            {
+                "text": "3. The series of questions in paragraphs 2 and 3 are",
+                "correctAnswer": 0,
+                "answers": [
+                    "A. the author's attempt to show the thoughts running through Miss Nightingale's mind ",
+                    "B. Miss Nightingale questioning her own conscience",
+                    "C. Miss Nightingale's response to an actual questioner",
+                    "D. Responses to the doctors who advised rest",
+                    "E. The author's device to highlight the reactions to Miss Nightingale's plans"
+                ]
+            },
+            {
+                "text": "4. The author's attitude to his material is",
+                "correctAnswer": 4,
+                "answers": [
+                    "A. disinterested reporting of biographical details",
+                    "B. over-inflation of a reputation",
+                    "C. debunking a myth",
+                    "D. uncritical presentation of facts",
+                    "E. interpretation as well as narration"
+                ]
+            },
+            {
+                "text": "5. In her statement (lines 53-54) Miss Nightingale intended to",
+                "correctAnswer": 1,
+                "answers": [
+                    "A. criticize the conditions in hospitals",
+                    "B. highlight the unhealthy conditions under which ordinary soldiers were living",
+                    "C. prove that conditions in the barracks were as bad as those in a military hospital",
+                    "D. ridicule the dangers of army life ",
+                    "E. quote important statistics"
+                ]
+            },
+            
+        ]
+    },
+    {
+        "essay": "I have yet to meet a poetry-lover under thirty who was<br>    not an introvert, or an introvert who was not unhappy in<br>    adolescence. At school, particularly, maybe, if, as in my own<br>    case, it is a boarding school, he sees the extrovert successful, <br>5   happy, and good and himself unpopular or neglected; and what is<br>    hardest to bear is not unpopularity, but the consciousness that it<br>    is deserved, that he is grubby and inferior and frightened and<br>    dull. Knowing no other kind of society than the contingent, he<br>    imagines that this arrangement is part of the eternal scheme of <br>10  things, that he is doomed to a life of failure and envy. It is not till<br>    he grows up, till years later he runs across the heroes of his<br>    school days and finds them grown commonplace and sterile, that<br>    he realizes that the introvert is the lucky one, the best adapted to<br>    an industrial civilization the collective values of which are so <br>15  infantile that he alone can grow, who has educated his fantasies<br>    and learned how to draw upon the resources of his inner life. At<br>    the time, however, his adolescence is unpleasant enough. Unable<br>    to imagine a society in which he would feel at home, he turns<br>    away from the human to the nonhuman: homesick he will seek, <br>20  not his mother, but mountains or autumn woods, and the<br>    growing life within him will express itself in a devotion to music<br>    and thoughts upon mutability and death. Art for him will be<br>    something infinitely precious, pessimistic, and hostile to life. If it<br>    speaks of love it must be love frustrated, for all success seems to <br>25  him noisy and vulgar; if it moralizes, it must counsel a stoic<br>    resignation, for the world he knows is well content with itself and<br>    will not change.<br><br>Deep as first love and wild with all regret,<br>O death in life, the days that are no more.<br><br>Now more than ever seems it sweet to die<br>To cease upon the midnight with no pain.<br>35  That to the adolescent is the authentic poetic note and whoever is<br>    the first in his life to strike it, whether Tennyson, Keats,<br>    Swinburne, Housman or another, awakens a passion of imitation<br>    and an affectation which no subsequent refinement or<br>    sophistication of his taste can entirely destroy. In my own case it <br>40  was Hardy in the summer of 1923; for more than a year I read no<br>    one else and I do not think that I was ever without one volume or<br>    another or the beautifully produced Wessex edition in my hands:<br>    I smuggled them into class, carried them about on Sunday walks,<br>    and took them up to the dormitory to read in the early morning, <br>45  though they were far too unwieldy to be read in bed with<br>    comfort. In the autumn of 1924 there was a palace revolution<br>    after which he had to share his kingdom with Edward Thomas,<br>    until finally they were both defeated by Elliot at the battle of<br>    Oxford in 1926.<br>50  Besides serving as the archetype of the Poetic, Hardy was<br>    also an expression of the contemporary scene. He was both my<br>    Keats and my Sandburg.<br>    To begin with, he looked like my father: that broad<br>    unpampered moustache, bald forehead, and deeply lined <br>55  sympathetic face belonged to that other world of feeling and<br>    sensation. Here was a writer whose emotions, if sometimes<br>    monotonous and sentimental in expression, would be deeper and<br>    more faithful than my own, and whose attachment to the earth<br>    would be more secure and observant.<br><br>Adapted from an article written by W H Auden",
+        "questions": [
+            {
+                "text": "1. According to the author, poetry lovers under thirty generally",
+                "correctAnswer": 0,
+                "answers": [
+                    "A. have a strong sense of their own inferiority during school years",
+                    "B. are always products of boarding schools",
+                    "C. have an unhappy home life",
+                    "D. are outgoing as adolescents",
+                    "E. long to return to early childhood"
+                ]
+            },
+            {
+                "text": "2. The author's main purpose is apparently to",
+                "correctAnswer": 1,
+                "answers": [
+                    "A. describe what lead to his being an introvert ",
+                    "B. explore the reasons for his early taste in poetr",
+                    "C. explain what lead to his becoming a poet",
+                    "D. account for the unhappy adolescent's aesthetic sense",
+                    "E. criticize a system that makes young people feel unhappy and neglected"
+                ]
+            },
+            {
+                "text": "3. The author regards the introverted adolescent as ultimately lucky because he has",
+                "correctAnswer": 2,
+                "answers": [
+                    "A. become financially successful in an industrialized society",
+                    "B. ceased to envy others",
+                    "C. cultivated inner resources that he will need in modern society",
+                    "D. a better general education than those who were envied in school",
+                    "E. learned to appreciate nature"
+                ]
+            },
+            {
+                "text": "4. It can be inferred that, for the author, the poetry of Hardy is",
+                "correctAnswer": 3,
+                "answers": [
+                    "A. something with which he is not entirely comfortable",
+                    "B. a temporary interest soon supplanted by other poetry",
+                    "C. a secret obsession that he is reluctant to confess",
+                    "D. his first poetic love that time has not entirely erased",
+                    "E. a childlike passion"
+                ]
+            },
+            {
+                "text": "5. It can be inferred that Edward Thomas",
+                "correctAnswer": 0,
+                "answers": [
+                    "A. was once held in high esteem by the author ",
+                    "B. was a better poet than Hardy",
+                    "C. was writing in 1924",
+                    "D. had views opposed to Eliot",
+                    "E. wrote poetry similar to that of Hardy"
+                ]
+            },
+            {
+                "text": "6. The author qualifies his appreciation of Hardy by pointing out that Hardy's poetic techniques were",
+                "correctAnswer": 2,
+                "answers": [
+                    "A. sometimes unmoving",
+                    "B. not always deeply felt ",
+                    "C. occasionally lacking in variety",
+                    "D. always emotional",
+                    "E. irrelevant to certain readers"
+                ]
+            },
+            {
+                "text": "7. The author feels that Hardy's physical appearance suggested",
+                "correctAnswer": 0,
+                "answers": [
+                    "A. deep and lasting feelings",
+                    "B. paternal values ",
+                    "C. careworn old age",
+                    "D. a contemporary writer ",
+                    "E. fatherly concern"
+                ]
+            }
+        ]
+    }
 ]
