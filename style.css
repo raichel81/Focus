@@ -98,12 +98,14 @@ button {
 	color: #4E7CAB;
 	margin-top: 15%;
 	font-size: 30px;
+	font-family: 'Vast Shadow', cursive;
 }
 
 .player2Name {
 	color: #7B3B59;
 	margin-top: 15%;
 	font-size: 30px;
+	font-family: 'Vast Shadow', cursive;
 }
 
 .player1Info {
@@ -153,7 +155,7 @@ button {
 }
 .winner {
 	font-size: 55px;
-	color: #FFA82B;
+	color: #6B5539;
 	font-family: 'Vast Shadow', cursive;
 	text-shadow: 0px -1px 0px #003;
 }
@@ -164,12 +166,9 @@ button {
     margin-top: 10%;
 }
 
-.questions {
-	font-family: 'Playfair Display', serif;
-	font-size: 25px;
-}
-
 .continue {
 	margin-right: 10%;
-	margin-left: 20%;
+	margin-left: 26%;
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
